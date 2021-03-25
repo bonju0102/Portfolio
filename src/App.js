@@ -8,6 +8,7 @@ import Particles from 'react-particles-js';
 function App() {
   return (
     <>
+      <Navbar/>
       <Particles
         className="particles-canvas"
         params={{
@@ -29,7 +30,6 @@ function App() {
           }
         }}
       />
-      <Navbar/>
       <Header/>
     </>
   );
